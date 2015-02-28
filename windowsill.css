@@ -1,0 +1,14 @@
+.windowsill.window {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}
+.windowsill.window .body {
+  flex-grow: 1;
+}
+.windowsill.window .titlebar {
+  display: block;
+  height: 1em;
+  cursor: move;
+}
+
