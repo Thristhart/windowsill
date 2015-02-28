@@ -23,6 +23,6 @@
   "homepage": "https://github.com/Thristhart/windowsill",
   "dependencies": {
     "deepmerge": "^0.2.7",
-    "interact.js": "^1.2.3"
+    "interact.js": "taye/interact.js"
   }
 }
