@@ -1,6 +1,7 @@
 .windowsill.window {
   display: flex;
   flex-direction: column;
+  position: absolute;
 }
 .windowsill.window .body {
   flex-grow: 1;
