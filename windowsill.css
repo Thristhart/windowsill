@@ -14,4 +14,21 @@
   flex-shrink: 0;
   cursor: move;
 }
+.windowsill.window .titlebar .buttonContainer {
+  float: right;
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+.windowsill.window .titlebar button.close {
+  order: 3;
+}
+.windowsill.window .titlebar button.maximize {
+  order: 2;
+}
+.windowsill.window .titlebar button.minimize {
+  order: 1;
+}
 
